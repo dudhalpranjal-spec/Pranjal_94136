@@ -1,0 +1,10 @@
+10:33:10 **** Incremental Build of configuration Debug for project A3Q2.c ****
+make -j8 all 
+arm-none-eabi-size  A3Q2.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1148	      4	   1564	   2716	    a9c	A3Q2.c.elf
+Finished building: default.size.stdout
+ 
+
+10:33:11 Build Finished. 0 errors, 0 warnings. (took 385ms)
+

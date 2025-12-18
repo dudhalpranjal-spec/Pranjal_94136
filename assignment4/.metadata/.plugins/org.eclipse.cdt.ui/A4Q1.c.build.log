@@ -1,0 +1,10 @@
+09:19:08 **** Incremental Build of configuration Debug for project A4Q1.c ****
+make -j8 all 
+arm-none-eabi-size  A4Q1.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	A4Q1.c.elf
+Finished building: default.size.stdout
+ 
+
+09:19:08 Build Finished. 0 errors, 0 warnings. (took 214ms)
+
