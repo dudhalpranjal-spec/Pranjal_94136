@@ -1,0 +1,10 @@
+09:50:56 **** Incremental Build of configuration Debug for project STATE BASE LED CONTROL_SWITCH ****
+make -j8 all 
+arm-none-eabi-size  STATE\ BASE\ LED\ CONTROL_SWITCH.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6164	     12	   1572	   7748	   1e44	STATE BASE LED CONTROL_SWITCH.elf
+Finished building: default.size.stdout
+ 
+
+09:50:56 Build Finished. 0 errors, 0 warnings. (took 454ms)
+
