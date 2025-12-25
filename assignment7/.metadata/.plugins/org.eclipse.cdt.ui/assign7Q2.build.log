@@ -1,0 +1,181 @@
+12:18:24 **** Incremental Build of configuration Debug for project assign7Q2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:3: warning: implicit declaration of function 'MX_USB_HOST_Init'; did you mean 'MX_USB_HOST_Process'? [-Wimplicit-function-declaration]
+  103 |   MX_USB_HOST_Init();
+      |   ^~~~~~~~~~~~~~~~
+      |   MX_USB_HOST_Process
+../Core/Src/main.c:113:29: error: 'huart2' undeclared (first use in this function)
+  113 |           HAL_UART_Receive(&huart2, &rx_byte, 1, HAL_MAX_DELAY);
+      |                             ^~~~~~
+../Core/Src/main.c:113:29: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'MX_I2C1_Init':
+../Core/Src/main.c:220:3: error: 'hi2c1' undeclared (first use in this function)
+  220 |   hi2c1.Instance = I2C1;
+      |   ^~~~~
+../Core/Src/main.c:222:26: error: 'I2C_DUTYCYCLE_2' undeclared (first use in this function)
+  222 |   hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
+      |                          ^~~~~~~~~~~~~~~
+../Core/Src/main.c:224:31: error: 'I2C_ADDRESSINGMODE_7BIT' undeclared (first use in this function)
+  224 |   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:225:32: error: 'I2C_DUALADDRESS_DISABLE' undeclared (first use in this function); did you mean 'I2C_DUALADDRESS_DISABLED'?
+  225 |   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                I2C_DUALADDRESS_DISABLED
+../Core/Src/main.c:227:32: error: 'I2C_GENERALCALL_DISABLE' undeclared (first use in this function); did you mean 'I2C_GENERALCALL_DISABLED'?
+  227 |   hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                I2C_GENERALCALL_DISABLED
+../Core/Src/main.c:228:30: error: 'I2C_NOSTRETCH_DISABLE' undeclared (first use in this function); did you mean 'I2C_NOSTRETCH_DISABLED'?
+  228 |   hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+      |                              I2C_NOSTRETCH_DISABLED
+../Core/Src/main.c:229:7: warning: implicit declaration of function 'HAL_I2C_Init'; did you mean 'HAL_LIN_Init'? [-Wimplicit-function-declaration]
+  229 |   if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_LIN_Init
+../Core/Src/main.c: In function 'MX_I2S3_Init':
+../Core/Src/main.c:254:3: error: 'hi2s3' undeclared (first use in this function)
+  254 |   hi2s3.Instance = SPI3;
+      |   ^~~~~
+../Core/Src/main.c:255:21: error: 'I2S_MODE_MASTER_TX' undeclared (first use in this function)
+  255 |   hi2s3.Init.Mode = I2S_MODE_MASTER_TX;
+      |                     ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:256:25: error: 'I2S_STANDARD_PHILIPS' undeclared (first use in this function); did you mean 'I2S_STANDARD_PHILLIPS'?
+  256 |   hi2s3.Init.Standard = I2S_STANDARD_PHILIPS;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+      |                         I2S_STANDARD_PHILLIPS
+../Core/Src/main.c:257:27: error: 'I2S_DATAFORMAT_16B' undeclared (first use in this function)
+  257 |   hi2s3.Init.DataFormat = I2S_DATAFORMAT_16B;
+      |                           ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:258:27: error: 'I2S_MCLKOUTPUT_ENABLE' undeclared (first use in this function)
+  258 |   hi2s3.Init.MCLKOutput = I2S_MCLKOUTPUT_ENABLE;
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:259:26: error: 'I2S_AUDIOFREQ_96K' undeclared (first use in this function)
+  259 |   hi2s3.Init.AudioFreq = I2S_AUDIOFREQ_96K;
+      |                          ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:260:21: error: 'I2S_CPOL_LOW' undeclared (first use in this function)
+  260 |   hi2s3.Init.CPOL = I2S_CPOL_LOW;
+      |                     ^~~~~~~~~~~~
+../Core/Src/main.c:261:28: error: 'I2S_CLOCK_PLL' undeclared (first use in this function); did you mean 'IS_RCC_PLL'?
+  261 |   hi2s3.Init.ClockSource = I2S_CLOCK_PLL;
+      |                            ^~~~~~~~~~~~~
+      |                            IS_RCC_PLL
+../Core/Src/main.c:262:31: error: 'I2S_FULLDUPLEXMODE_DISABLE' undeclared (first use in this function)
+  262 |   hi2s3.Init.FullDuplexMode = I2S_FULLDUPLEXMODE_DISABLE;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:263:7: warning: implicit declaration of function 'HAL_I2S_Init'; did you mean 'HAL_LIN_Init'? [-Wimplicit-function-declaration]
+  263 |   if (HAL_I2S_Init(&hi2s3) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_LIN_Init
+../Core/Src/main.c: In function 'MX_SPI1_Init':
+../Core/Src/main.c:289:3: error: 'hspi1' undeclared (first use in this function)
+  289 |   hspi1.Instance = SPI1;
+      |   ^~~~~
+../Core/Src/main.c:290:21: error: 'SPI_MODE_MASTER' undeclared (first use in this function)
+  290 |   hspi1.Init.Mode = SPI_MODE_MASTER;
+      |                     ^~~~~~~~~~~~~~~
+../Core/Src/main.c:291:26: error: 'SPI_DIRECTION_2LINES' undeclared (first use in this function)
+  291 |   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
+      |                          ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:292:25: error: 'SPI_DATASIZE_8BIT' undeclared (first use in this function)
+  292 |   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:293:28: error: 'SPI_POLARITY_LOW' undeclared (first use in this function)
+  293 |   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+      |                            ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:294:25: error: 'SPI_PHASE_1EDGE' undeclared (first use in this function)
+  294 |   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+      |                         ^~~~~~~~~~~~~~~
+../Core/Src/main.c:295:20: error: 'SPI_NSS_SOFT' undeclared (first use in this function)
+  295 |   hspi1.Init.NSS = SPI_NSS_SOFT;
+      |                    ^~~~~~~~~~~~
+../Core/Src/main.c:296:34: error: 'SPI_BAUDRATEPRESCALER_2' undeclared (first use in this function)
+  296 |   hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:297:25: error: 'SPI_FIRSTBIT_MSB' undeclared (first use in this function)
+  297 |   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+      |                         ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:298:23: error: 'SPI_TIMODE_DISABLE' undeclared (first use in this function); did you mean 'SPI_TIMODE_DISABLED'?
+  298 |   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       SPI_TIMODE_DISABLED
+../Core/Src/main.c:299:31: error: 'SPI_CRCCALCULATION_DISABLE' undeclared (first use in this function); did you mean 'SPI_CRCCALCULATION_DISABLED'?
+  299 |   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               SPI_CRCCALCULATION_DISABLED
+../Core/Src/main.c:301:7: warning: implicit declaration of function 'HAL_SPI_Init'; did you mean 'HAL_GPIO_Init'? [-Wimplicit-function-declaration]
+  301 |   if (HAL_SPI_Init(&hspi1) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.c: In function 'MX_GPIO_Init':
+../Core/Src/main.c:332:21: error: 'CS_I2C_SPI_GPIO_Port' undeclared (first use in this function)
+  332 |   HAL_GPIO_WritePin(CS_I2C_SPI_GPIO_Port, CS_I2C_SPI_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:332:43: error: 'CS_I2C_SPI_Pin' undeclared (first use in this function)
+  332 |   HAL_GPIO_WritePin(CS_I2C_SPI_GPIO_Port, CS_I2C_SPI_Pin, GPIO_PIN_RESET);
+      |                                           ^~~~~~~~~~~~~~
+../Core/Src/main.c:335:21: error: 'OTG_FS_PowerSwitchOn_GPIO_Port' undeclared (first use in this function)
+  335 |   HAL_GPIO_WritePin(OTG_FS_PowerSwitchOn_GPIO_Port, OTG_FS_PowerSwitchOn_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:335:53: error: 'OTG_FS_PowerSwitchOn_Pin' undeclared (first use in this function)
+  335 |   HAL_GPIO_WritePin(OTG_FS_PowerSwitchOn_GPIO_Port, OTG_FS_PowerSwitchOn_Pin, GPIO_PIN_SET);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:338:28: error: 'LD4_Pin' undeclared (first use in this function)
+  338 |   HAL_GPIO_WritePin(GPIOD, LD4_Pin|LD3_Pin|LD5_Pin|LD6_Pin
+      |                            ^~~~~~~
+../Core/Src/main.c:338:36: error: 'LD3_Pin' undeclared (first use in this function)
+  338 |   HAL_GPIO_WritePin(GPIOD, LD4_Pin|LD3_Pin|LD5_Pin|LD6_Pin
+      |                                    ^~~~~~~
+../Core/Src/main.c:338:44: error: 'LD5_Pin' undeclared (first use in this function)
+  338 |   HAL_GPIO_WritePin(GPIOD, LD4_Pin|LD3_Pin|LD5_Pin|LD6_Pin
+      |                                            ^~~~~~~
+../Core/Src/main.c:338:52: error: 'LD6_Pin' undeclared (first use in this function)
+  338 |   HAL_GPIO_WritePin(GPIOD, LD4_Pin|LD3_Pin|LD5_Pin|LD6_Pin
+      |                                                    ^~~~~~~
+../Core/Src/main.c:339:28: error: 'Audio_RST_Pin' undeclared (first use in this function)
+  339 |                           |Audio_RST_Pin, GPIO_PIN_RESET);
+      |                            ^~~~~~~~~~~~~
+../Core/Src/main.c:356:25: error: 'PDM_OUT_Pin' undeclared (first use in this function)
+  356 |   GPIO_InitStruct.Pin = PDM_OUT_Pin;
+      |                         ^~~~~~~~~~~
+../Core/Src/main.c:361:17: error: 'PDM_OUT_GPIO_Port' undeclared (first use in this function)
+  361 |   HAL_GPIO_Init(PDM_OUT_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:364:25: error: 'B1_Pin' undeclared (first use in this function)
+  364 |   GPIO_InitStruct.Pin = B1_Pin;
+      |                         ^~~~~~
+../Core/Src/main.c:367:17: error: 'B1_GPIO_Port' undeclared (first use in this function)
+  367 |   HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c:370:25: error: 'BOOT1_Pin' undeclared (first use in this function)
+  370 |   GPIO_InitStruct.Pin = BOOT1_Pin;
+      |                         ^~~~~~~~~
+../Core/Src/main.c:373:17: error: 'BOOT1_GPIO_Port' undeclared (first use in this function)
+  373 |   HAL_GPIO_Init(BOOT1_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~~~~
+../Core/Src/main.c:376:25: error: 'CLK_IN_Pin' undeclared (first use in this function)
+  376 |   GPIO_InitStruct.Pin = CLK_IN_Pin;
+      |                         ^~~~~~~~~~
+../Core/Src/main.c:381:17: error: 'CLK_IN_GPIO_Port' undeclared (first use in this function)
+  381 |   HAL_GPIO_Init(CLK_IN_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:393:25: error: 'OTG_FS_OverCurrent_Pin' undeclared (first use in this function)
+  393 |   GPIO_InitStruct.Pin = OTG_FS_OverCurrent_Pin;
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:396:17: error: 'OTG_FS_OverCurrent_GPIO_Port' undeclared (first use in this function)
+  396 |   HAL_GPIO_Init(OTG_FS_OverCurrent_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:399:25: error: 'MEMS_INT2_Pin' undeclared (first use in this function)
+  399 |   GPIO_InitStruct.Pin = MEMS_INT2_Pin;
+      |                         ^~~~~~~~~~~~~
+../Core/Src/main.c:402:17: error: 'MEMS_INT2_GPIO_Port' undeclared (first use in this function)
+  402 |   HAL_GPIO_Init(MEMS_INT2_GPIO_Port, &GPIO_InitStruct);
+      |                 ^~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+12:18:25 Build Failed. 49 errors, 4 warnings. (took 1s.498ms)
+

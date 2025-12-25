@@ -1,0 +1,78 @@
+!SESSION 2025-12-24 12:10:22.535 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\arm controller\Pranjal_94136\Pranjal_94136\assignment7
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-24 12:10:57.518
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-24 12:10:57.518
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\assignment7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-24 12:11:06.196
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-24 12:15:34.032
+!MESSAGE Indexed 'UART_RECEIVE_ECHO_POLING' (34 sources, 100 headers) in 10.5 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+!SESSION 2025-12-25 08:31:06.337 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-25 08:31:18.293
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-25 08:31:18.296
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\assignment7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-25 08:31:38.836
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 08:50:47.835
+!MESSAGE Indexed 'HAL_UART-2' (20 sources, 116 headers) in 6.54 sec: 11,167 declarations; 40,488 references; 6 unresolved inclusions; 1,020 syntax errors; 1,305 unresolved names (2.5%)
+!SESSION 2025-12-25 08:52:11.363 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-25 08:52:18.497
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-25 08:52:18.499
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\assignment7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-25 08:52:24.031
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 08:54:28.351
+!MESSAGE Indexed 'assign7Q1' (34 sources, 100 headers) in 13.7 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+!SESSION 2025-12-25 12:02:17.556 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\arm controller\Pranjal_94136\Pranjal_94136\assignment7
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-25 12:02:34.402
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-25 12:02:34.408
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\assignment7\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-25 12:02:56.315
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 12:05:27.739
+!MESSAGE Indexed 'assign7Q2' (34 sources, 100 headers) in 13.3 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 12:20:35.998
+!MESSAGE Indexed 'asssign7Q2' (34 sources, 100 headers) in 5.41 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-25 12:24:43.049
+!MESSAGE Indexed 'assign7Q3' (34 sources, 100 headers) in 3.96 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)
