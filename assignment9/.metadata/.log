@@ -1,0 +1,51 @@
+!SESSION 2025-12-29 09:43:35.426 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\arm controller\Pranjal_94136\Pranjal_94136\assignment9
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-29 09:43:42.048
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-29 09:43:42.049
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\assignment9\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-29 09:43:45.659
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 09:44:25.107
+!MESSAGE Indexed 'LDR' (23 sources, 119 headers) in 7.03 sec: 11,729 declarations; 45,542 references; 7 unresolved inclusions; 1,132 syntax errors; 1,545 unresolved names (2.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 09:46:11.066
+!MESSAGE Indexed 'A9Q1' (19 sources, 81 headers) in 4.39 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 09:52:17.992
+!MESSAGE Indexed 'A99Q1' (19 sources, 81 headers) in 3.57 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 10:00:05.739
+!MESSAGE Indexed 'A9Q2' (19 sources, 81 headers) in 8.09 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 10:18:12.098
+!MESSAGE Indexed 'A9Q2' (19 sources, 81 headers) in 7.6 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 10:37:36.667
+!MESSAGE Indexed 'A9Q3' (19 sources, 81 headers) in 7.11 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 11:01:39.736
+!MESSAGE Indexed 'A9Q4' (19 sources, 81 headers) in 7.94 sec: 4,442 declarations; 18,507 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0087%)
+!SESSION 2025-12-29 12:29:36.489 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-29 12:29:50.781
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-29 12:29:50.787
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\assignment9\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-29 12:30:11.914
+!MESSAGE Started RMI Server, listening on port 41337
