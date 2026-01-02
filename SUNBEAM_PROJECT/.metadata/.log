@@ -1,0 +1,18 @@
+!SESSION 2026-01-01 14:16:36.859 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\arm controller\Pranjal_94136\Pranjal_94136\SUNBEAM_PROJECT
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-01 14:16:45.177
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-01 14:16:45.180
+!MESSAGE Log4j2 initialized with config file D:\arm controller\Pranjal_94136\Pranjal_94136\SUNBEAM_PROJECT\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-01 14:16:49.555
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-01 14:17:40.664
+!MESSAGE Indexed 'Smart_Env_Moisture_Monitor' (31 sources, 167 headers) in 11.6 sec: 15,306 declarations; 65,813 references; 10 unresolved inclusions; 226 syntax errors; 1,550 unresolved names (1.9%)

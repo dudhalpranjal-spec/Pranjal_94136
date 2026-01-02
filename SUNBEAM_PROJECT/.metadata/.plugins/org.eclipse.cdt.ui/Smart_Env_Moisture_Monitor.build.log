@@ -1,0 +1,10 @@
+15:46:27 **** Incremental Build of configuration Debug for project Smart_Env_Moisture_Monitor ****
+make -j8 all 
+arm-none-eabi-size  Smart_Env_Moisture_Monitor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19032	     92	   2140	  21264	   5310	Smart_Env_Moisture_Monitor.elf
+Finished building: default.size.stdout
+ 
+
+15:46:27 Build Finished. 0 errors, 0 warnings. (took 455ms)
+
